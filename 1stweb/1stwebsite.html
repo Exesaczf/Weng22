@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .flexgallery {
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .image-container {
+            width: 30%;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        .image-container img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border: none;
+            border-radius: 8px;
+        }
+        .image-details {
+            background-color: #f9f9f9;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            height: 100px;
+        }
+        .image-container p {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 0;
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+        .view-button {
+          background-color: green;
+          border-radius: 5px;
+          border: none;
+          color: white;
+          font-size: 18px;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          margin-right: 10px;
+          margin-left: 10px;
+          transition: padding 0.15s,
+          margin 0.15s;
+        }
+        .view-button:hover{
+          padding-left: 25px;
+          padding-right: 25px;
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+        a {
+          color: white;
+         text-decoration: none;
+        }
+        a:visited {
+          color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MOTOR BIKES</h1>
+    </header>
+    <p class="flexgallery">FLEX BOX GALLERY</p>
+
+    
+    <section>
+      <div class="image-container">
+          <img src="img1.jpg" alt="Sample Image 1">
+          <div class="image-details">
+              <p>Additional Details</p>
+              <button class="view-button"><a href="img1.jpg">View Image</a></button>
+          </div>
+      </div>
+      <div class="image-container">
+          <img src="img2.jpg" alt="Sample Image 2">
+          <div class="image-details">
+              <p>Additional Details</p>
+              <button class="view-button"><a href="img2.jpg">View Image</a></button>
+          </div>
+      </div>
+      <div class="image-container">
+          <img src="img3.jpg" alt="Sample Image 3">
+          <div class="image-details">
+              <p>Additional Details </p>
+              <button class="view-button"><a href="img3.jpg">View Image</a></button>
+          </div>
+      </div>
+      <div class="image-container">
+        <img src="img4.jpg" alt="Sample Image 3">
+        <div class="image-details">
+            <p>Additional Details</p>
+            <button class="view-button"><a href="img4.jpg">View Image</a></button>
+        </div>
+    </div>
+    <div class="image-container">
+      <img src="img5.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img5.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+        <img src="img6.jpg" alt="Sample Image 3">
+        <div class="image-details">
+            <p>Additional Details</p>
+            <button class="view-button"><a href="img6.jpg">View Image</a></button>
+        </div>
+    </div>
+    <div class="image-container">
+      <img src="img7.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img7.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img8.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img8.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img9.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img9.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img10.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img10.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img11.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img11.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img12.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img12.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img13.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img13.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img14.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img14.jpg">View Image</a></button>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="img15.jpg" alt="Sample Image 3">
+      <div class="image-details">
+          <p>Additional Details</p>
+          <button class="view-button"><a href="img15.jpg">View Image</a></button>
+      </div>
+    </div>
+  </section>  
+  </div>
+</body>
+</html>
